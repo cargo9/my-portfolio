@@ -8,14 +8,14 @@ export const HeroSection = styled.section`
   align-items: center;
   text-align: center;
   padding: 2rem;
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  background: linear-gradient(180deg, #4e4e8a 0%, #16213e 100%);
 `;
 
 export const Greeting = styled.div`
   font-size: 4rem;
   font-weight: 800;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0a0e1b 0%, #471515 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

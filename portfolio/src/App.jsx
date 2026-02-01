@@ -1,5 +1,6 @@
 import Header from "./components/Header.jsx";
 import Hero from "./components/Hero.jsx";
+import Progect from "./components/Progect.jsx";
 import Skills from "./components/Skills.jsx";
 import Setup from "./components/Setup.jsx";
 import Footer from "./components/Footer.jsx";
@@ -51,12 +52,40 @@ function App() {
     // },
   ];
 
+    const progectData = [
+    {
+      id: 1,
+      emoji: "🍕",
+      name: "Fast-Food-Restaurant",
+      url: "https://github.com/cargo9/Fast-Food-Restaurant.git",
+      description: "Сімейний фастфуд ресторан",
+      tags: ["Components", "Vite", "React"],
+    },
+    {
+      id: 1,
+      emoji: "🍕",
+      name: "Fast-Food-Restaurant",
+      url: "https://github.com/cargo9/Fast-Food-Restaurant.git",
+      description: "Сімейний фастфуд ресторан",
+      tags: ["Components", "Vite", "React"],
+    },
+    {
+      id: 1,
+      emoji: "🍕",
+      name: "Fast-Food-Restaurant",
+      url: "https://github.com/cargo9/Fast-Food-Restaurant.git",
+      description: "Сімейний фастфуд ресторан",
+      tags: ["Components", "Vite", "React"],
+    },
+  ];
+
   return (
     <>
       <GlobalStyle />
       <AppContainer>
         <Header />
         <Hero name={userData.name} bio={userData.bio} />
+        <Progect progectItems={progectData} />
         <Skills skills={skillsData} />
         <Setup setupItems={setupData} />
         <Footer />

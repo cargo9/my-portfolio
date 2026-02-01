@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-export const SetupSection = styled.section`
+export const ProgectSection = styled.section`
   padding: 4rem 3rem;
-  background: linear-gradient(180deg, #121212 0%, #1a1a2e 100%);
+  background: linear-gradient(360deg, #121212 0%, #16213e 100%);
 `;
 
-export const SetupTitle = styled.h2`
+export const ProgectTitle = styled.h2`
   text-align: center;
   font-size: 2.5rem;
   color: #fff;
@@ -16,21 +16,15 @@ export const SetupTitle = styled.h2`
   gap: 1rem;
 `;
 
-export const SetupIcon = styled.span`
+export const ProgectIcon = styled.span`
   font-size: 3rem;
-  animation: rotate 3s linear infinite;
-
-  @keyframes rotate {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
 `;
 
-export const SetupGrid = styled.div`
+export const ProgectUrl = styled.a`
+  color: #0011ff;
+`;
+
+export const ProgectGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
@@ -38,7 +32,7 @@ export const SetupGrid = styled.div`
   margin: 0 auto;
 `;
 
-export const SetupCard = styled.div`
+export const ProgectCard = styled.div`
   background: rgba(30, 30, 30, 0.8);
   padding: 2.5rem;
   border-radius: 20px;
@@ -76,21 +70,21 @@ export const SetupCard = styled.div`
   }
 `;
 
-export const SetupEmoji = styled.div`
+export const ProgectEmoji = styled.div`
   font-size: 4rem;
   margin-bottom: 1.5rem;
   text-align: center;
   filter: drop-shadow(0 4px 8px rgba(99, 102, 241, 0.3));
 `;
 
-export const SetupName = styled.h3`
+export const ProgectName = styled.h3`
   color: #fff;
   font-size: 1.5rem;
   margin-bottom: 1rem;
   text-align: center;
 `;
 
-export const SetupDescription = styled.p`
+export const ProgectDescription = styled.p`
   color: #a1a1aa;
   font-size: 1rem;
   line-height: 1.6;
@@ -98,14 +92,14 @@ export const SetupDescription = styled.p`
   text-align: center;
 `;
 
-export const SetupTags = styled.div`
+export const ProgectTags = styled.div`
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap;
   justify-content: center;
 `;
 
-export const SetupTag = styled.span`
+export const ProgectTag = styled.span`
   background: rgba(99, 102, 241, 0.2);
   color: #a5b4fc;
   padding: 0.4rem 0.8rem;
@@ -114,7 +108,7 @@ export const SetupTag = styled.span`
   border: 1px solid rgba(99, 102, 241, 0.3);
   transition: all 0.3s ease;
 
-  ${SetupCard}:hover & {
+  ${ProgectCard}:hover & {
     background: rgba(99, 102, 241, 0.3);
     border-color: #6366f1;
     color: #c7d2fe;
