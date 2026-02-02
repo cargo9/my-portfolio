@@ -21,7 +21,12 @@ export const ProgectIcon = styled.span`
 `;
 
 export const ProgectUrl = styled.a`
-  color: #0011ff;
+  color: #8f9ffa;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
 `;
 
 export const ProgectGrid = styled.div`
@@ -45,7 +50,7 @@ export const ProgectCard = styled.div`
   /* Gradient border */
   &::before {
     content: "";
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     right: 0;
@@ -53,7 +58,7 @@ export const ProgectCard = styled.div`
     border-radius: 20px;
     padding: 2px;
     /* background: linear-gradient(135deg, #6366f1, #8b5cf6); */
-    mask-composite: exclude;
+    /* mask-composite: exclude; */
     opacity: 0;
     transition: opacity 0.4s ease;
   }

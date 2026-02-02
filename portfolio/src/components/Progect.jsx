@@ -10,7 +10,7 @@ import {
   ProgectTags,
   ProgectTag,
   ProgectUrl,
-} from "./Progect.styles";
+} from "./Progect.styles.js";
 
 const Progect = ({ progectItems }) => {
   return (
@@ -24,7 +24,8 @@ const Progect = ({ progectItems }) => {
         {progectItems.map((item) => (
           <ProgectCard key={item.id}>
             <ProgectEmoji>{item.emoji}</ProgectEmoji>
-            <ProjectName href={item.url} target="_blank"> {item.name} </ProjectName>
+            <ProgectUrl href={item.url} target="_blank"> {item.name} </ProgectUrl>
+            <ProgectName></ProgectName>
             <ProgectDescription>{item.description}</ProgectDescription>
             <ProgectTags>
               {item.tags.map((tag, index) => (
