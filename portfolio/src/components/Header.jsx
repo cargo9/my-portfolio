@@ -17,8 +17,8 @@ const Header = () => {
 
       <Nav>
         <NavLink href="#skills">Навички</NavLink>
-        <NavLink href="#setup">Сетап</NavLink>
-        <NavLink href="#contact">Контакт</NavLink>
+        <NavLink href="#setup">Проєкти</NavLink>
+        <NavLink href="#footer">Контакт</NavLink>
       </Nav>
     </StyledHeader>
   );
