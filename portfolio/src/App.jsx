@@ -66,8 +66,8 @@ function App() {
       emoji: "🥗",
       name: "Food-Dash",
       url: "https://github.com/cargo9/Food-Dash.git",
-      description: "Додаток для замовлення їжі з різноманітним меню",
-      tags: ["SVG", "Vite", "JavaScript"],
+      description: "Додаток меню східної їжі з анімаціями",
+      tags: ["Single-page Application", "Vite", "JavaScript"],
     },
     {
       id: 1,
@@ -75,7 +75,7 @@ function App() {
       name: "Happy-New-Year",
       url: "https://github.com/cargo9/Happy-New-Year.git",
       description: "Святковий вебсайт з анімаціями та таймером до Нового Року",
-      tags: ["Components", "Vite", "React"],
+      tags: ["Date", "Math.random", "JavaScript"],
     },
   ];
 
