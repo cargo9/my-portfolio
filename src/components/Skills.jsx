@@ -29,7 +29,7 @@ const Skills = ({ skills }) => {
             </SkillLevel>
             <SkillPercent>{skill.level}%</SkillPercent>
           </SkillCard>
-        ))}
+          ))}
       </SkillsGrid>
     </SkillsSection>
   );
